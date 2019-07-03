@@ -1,0 +1,79 @@
+* {
+	position: relative;
+}
+
+body {
+	background: rgb(234, 234, 234);
+}
+
+.btn {
+	width: 70px;
+	height: 40px;
+	margin-left: 20px;
+	float: left;
+}
+
+#button {
+	width: 200px;
+	height: 50px;
+	margin-left: 25%;
+}
+
+.layui-form {
+	width: 500px;
+	height: 450px;
+	margin: 10px auto;
+	background: white;
+	
+}
+.layui-form-label{
+	text-align:center;
+}
+
+.layui-btn {
+	background-color: #8babf1;
+}
+
+#top{
+	height:50px;
+}
+
+#box{
+	position:relative;
+	top:90px;
+	margin:0 auto;
+	width:550px;
+	height:530px;
+	padding:10px;
+	font-size: 15px;
+}
+
+
+
+#test1 {
+	position: relative;
+	top: 0;
+	width: 390px;
+	height: 50px;
+}
+
+#return {
+	position: fixed;
+	top: 90px;
+	right:10%;
+	display: block;
+	width: 100px;
+	height: 30px;
+	float:right;
+	clear: both;
+}
+
+#show {
+	margin:10px auto;
+	width: 500px;
+	height: 460px;
+	display: none;
+	clear: both;
+}
+
+

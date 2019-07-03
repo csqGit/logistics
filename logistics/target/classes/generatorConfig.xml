@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<!-- 新加代码 -->
+	<!-- <classPathEntry location=""/> -->
+  <context id="context1">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/db_logistics" 
+    driverClass="com.mysql.jdbc.Driver" password="Bozpower123#" userId="root" />
+    <javaModelGenerator targetPackage="com.ldxy.entity" targetProject="logistics/src/main/java" />
+    <sqlMapGenerator targetPackage="com.ldxy.mapper" targetProject="logistics/src/main/java" />
+    <javaClientGenerator targetPackage="com.ldxy.dao" targetProject="logistics/src/main/java" type="XMLMAPPER" />
+    
+   
+    <!-- <table schema="db_logistics" tableName="lose_found_tb" domainObjectName="LoseFound"> -->
+    <!-- <table schema="db_logistics" tableName="new_tb" domainObjectName="New"> -->
+    <!-- <table schema="db_logistics" tableName="idea_tb" domainObjectName="Idea"> -->
+    <table schema="db_logistics" tableName="school_bus_tb" domainObjectName="SchoolBus">
+<!--       <columnOverride column="???" property="???" /> -->
+    </table>
+  </context>
+</generatorConfiguration>
